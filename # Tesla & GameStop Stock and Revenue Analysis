@@ -1,0 +1,63 @@
+
+## Project Overview
+
+This project uses Python to collect and visualize stock price and revenue data for **Tesla (TSLA)** and **GameStop (GME)**.
+
+The main goal is to practice getting financial data from different sources and displaying the results using graphs.
+
+## What This Project Does
+
+In this project, I:
+
+- Extract Tesla stock data using `yfinance`.
+- Extract GameStop stock data using `yfinance`.
+- Collect Tesla revenue data using web scraping.
+- Collect GameStop revenue data using web scraping.
+- Clean and organize the data using Pandas.
+- Create graphs to compare stock prices and company revenue.
+
+## Tools and Libraries
+
+The project uses:
+
+- Python
+- Pandas
+- yfinance
+- Requests
+- BeautifulSoup
+- Matplotlib
+
+## Main Steps
+
+### 1. Tesla Stock Data
+
+Tesla historical stock data is downloaded using the ticker:
+
+`TSLA`
+
+### 2. Tesla Revenue Data
+
+Tesla revenue data is collected from a webpage using web scraping with BeautifulSoup.
+
+### 3. GameStop Stock Data
+
+GameStop historical stock data is downloaded using the ticker:
+
+`GME`
+
+### 4. GameStop Revenue Data
+
+GameStop revenue data is also collected using web scraping.
+
+### 5. Data Visualization
+
+Graphs are created to show:
+
+- Historical stock prices
+- Historical company revenue
+
+The graphs make it easier to see how the stock price and revenue changed over time.
+
+## Conclusion
+
+Based on this analysis, Tesla appears to have stronger support from its historical revenue growth, while the GameStop stock-price increase appears to be influenced by factors other than revenue.
